@@ -3,10 +3,10 @@ package org.example.Model;
 public class ProductoModel {
      public String nombre;
   private   int  cantidad;
-    String categoria;
-    double precio;
-    double costo;
-    Boolean Reservado;
+   private String categoria;
+  private   double precio;
+  private   double costo;
+    private Boolean Reservado;
 
 
 
