@@ -6,8 +6,23 @@ public class ProductoModel {
    private String categoria;
   private   double precio;
   private   double costo;
-    private Boolean Reservado;
+    private Boolean reservado;
 
+    public ProductoModel(String nombre, int cantidad,String categoria, double precio, double costo,boolean reservado){
 
+        this.nombre = nombre;
+        this.cantidad = cantidad;
+        this.categoria = categoria;
+        this.precio = precio;
+        this.costo = costo;
+        this.reservado = reservado;
+
+    }
+    public ProductoModel(){}
+    public ProductoModel(String nombre, int cantidad, String categoria){
+        this.nombre = nombre;
+        this.cantidad = cantidad;
+        this.categoria = categoria;
+    }
 
 }
